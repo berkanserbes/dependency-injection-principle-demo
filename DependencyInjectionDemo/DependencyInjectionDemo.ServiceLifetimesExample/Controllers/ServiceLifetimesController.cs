@@ -31,7 +31,7 @@ public class ServiceLifetimesController : ControllerBase
 		return Ok(new
 		{
 			TransientService1Id = _transientService1.Id,
-			TransientService2d = _transientService2.Id,
+			TransientService2Id = _transientService2.Id,
 			ScopedService1Id = _scopedService1.Id,
 			ScopedService2Id = _scopedService2.Id,
 			SingletonService1Id = _singletonService1.Id,
